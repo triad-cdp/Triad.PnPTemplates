@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.11.1701.1, Culture=neutral, PublicKeyToken=null" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-332A299F07264E7FB799B91E378BD898">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-332A299F07264E7FB799B91E378BD898" Version="1" BaseSiteTemplate="ENTERWIKI#0">
+      <pnp:WebSettings RequestAccessEmail="someone@example.com" NoCrawl="false" WelcomePage="Pages/home.aspx" SiteLogo="" AlternateCSS="{masterpagecatalog}/custom.css" MasterPageUrl="{masterpagecatalog}/seattle.master" CustomMasterPageUrl="{masterpagecatalog}/seattle.master" />
+      <pnp:RegionalSettings AdjustHijriDays="0" AlternateCalendarType="None" CalendarType="Gregorian" Collation="25" FirstDayOfWeek="Sunday" FirstWeekOfYear="0" LocaleId="1033" ShowWeeks="false" Time24="false" TimeZone="2" WorkDayEndHour="5:00PM" WorkDays="62" WorkDayStartHour="8:00AM" />
+      <pnp:SupportedUILanguages>
+        <pnp:SupportedUILanguage LCID="1033" />
+      </pnp:SupportedUILanguages>
+      <pnp:PropertyBagEntries>
+        <pnp:PropertyBagEntry Key="NoCrawl" Value="false" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="SiteCollectionGroupId01c0a2bd-6422-4a2f-a4fd-77fec5e62532" Value="b6c3e47f-9b36-4a3e-bbd8-2e6e5c785ad7" Overwrite="false" />
+      </pnp:PropertyBagEntries>
+      <pnp:Security>
+        <pnp:AdditionalAdministrators>
+          <pnp:User Name="i:0#.f|membership|matt@zephyrgroup.onmicrosoft.com" />
+        </pnp:AdditionalAdministrators>
+        <pnp:Permissions />
+      </pnp:Security>
+      <pnp:Navigation>
+        <pnp:GlobalNavigation NavigationType="Managed">
+          <pnp:ManagedNavigation TermStoreId="{sitecollectiontermstoreid}" TermSetId="{sitecollectiontermsetid:Site Navigation}" />
+        </pnp:GlobalNavigation>
+        <pnp:CurrentNavigation NavigationType="Managed">
+          <pnp:ManagedNavigation TermStoreId="{sitecollectiontermstoreid}" TermSetId="{sitecollectiontermsetid:Site Navigation}" />
+        </pnp:CurrentNavigation>
+      </pnp:Navigation>
+      <pnp:Files>
+        <pnp:File Src="Pages\home.aspx" Folder="{site}/Pages" Overwrite="true" Level="Published">
+          <pnp:Properties>
+            <pnp:Property Key="ContentTypeId" Value="{contenttypeid:Enterprise Wiki Page}" />
+            <pnp:Property Key="Title" Value="Home" />
+            <pnp:Property Key="PublishingContact" Value="Matt@ZephyrGroup.onmicrosoft.com" />
+            <pnp:Property Key="PublishingPageLayout" Value="{masterpagecatalog}/EnterpriseWiki.aspx,     Basic Page" />
+            <pnp:Property Key="PublishingIsFurlPage" Value="False" />
+            <pnp:Property Key="RobotsNoIndex" Value="False" />
+            <pnp:Property Key="PublishingPageContent" Value="&lt;p&gt;Use the Enterprise Wiki to create a single, go-to place for knowledge sharing and project management across the enterprise. Enterprise Wikis are simple to use, flexible, and lightweight in features. They are quick and easy to create, and you can easily add links to other information systems, corporate directories, or applications.&lt;/p&gt;&lt;p&gt;By using an Enterprise Wiki, you can avoid email overload, provide structure to new and existing information, and encourage collaboration. This helps build consensus among team members. &lt;/p&gt;&lt;p&gt;Working with content - text, graphics or video - is as easy as working in any word processing application, such as Microsoft Word. Use the Rich Text Editor to enhance the formatting of content, apply styles to text, reorganize or spell check your content, insert and format tables, and embed graphics or video. You can do all these things without leaving the wiki page.&lt;/p&gt;&lt;p&gt;Other things you can do when working with Enterprise Wikis&amp;#58; &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Collaborate on wiki pages with other users&lt;/li&gt;&lt;li&gt;Comment on a wiki page to enable discussion about the contents of the page&lt;/li&gt;&lt;li&gt;Rate a wiki page to share your opinion about its content&lt;/li&gt;&lt;li&gt;Categorize wiki pages to enable users to quickly find information and share it with others&lt;/li&gt;&lt;/ul&gt;" />
+            <pnp:Property Key="TaskStatus" Value="Not Started" />
+            <pnp:Property Key="BSN" Value="Microsoft.SharePoint.Client.FieldLookupValue" />
+            <pnp:Property Key="_ListSchemaVersion" Value="132" />
+            <pnp:Property Key="_Dirty" Value="0" />
+            <pnp:Property Key="_Parsable" Value="1" />
+          </pnp:Properties>
+        </pnp:File>
+      </pnp:Files>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

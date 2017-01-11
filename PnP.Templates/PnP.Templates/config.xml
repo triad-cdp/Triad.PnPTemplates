@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Configurations>
+  <Configuration>
+    <Sites>
+      <Site Name="Home" Template="Home" Location="Home" BaseTemplate="ENTERWIKI#0"/>      
+    </Sites>
+    
+    <Databases>
+      <Database>
+        
+      </Database>
+    </Databases>
+  </Configuration>
+</Configurations>
